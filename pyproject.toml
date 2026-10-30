@@ -1,7 +1,7 @@
 [project]
 name = "valutatrade-hub"
 version = "0.1.0"
-description = "Add your description here"
+description = "CLI-сервис для учёта валютных портфелей и парсинга курсов валют"
 readme = "README.md"
 authors = [
     { name = "StakhovskayaAnastasiy", email = "stakhovskaya.anastacia@yandex.ru" }
@@ -15,7 +15,8 @@ dependencies = [
 ]
 
 [project.scripts]
-valutatrade-hub = "valutatrade_hub:main"
+valuta = "valutatrade_hub.cli.interface:main"
+valutatrade-hub = "valutatrade_hub.cli.interface:main"
 
 [build-system]
 requires = ["uv_build>=0.13.1,<0.14.0"]

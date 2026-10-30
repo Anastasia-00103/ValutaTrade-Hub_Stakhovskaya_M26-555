@@ -9,3 +9,5 @@ logs/
 .DS_Store
 Thumbs.db
 .pytest_cache/
+data/*.json
+!data/.gitkeep
